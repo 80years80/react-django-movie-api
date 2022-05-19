@@ -23,7 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # SECURITY WARNING: keep the secret key used in production secret!
 f = open('.secret.json')
 secret = json.load(f)
+f.close()
 SECRET_KEY = secret['key']
+
 
 #SECRET_KEY = 'django-insecure-s)dr(s&+hb_mdwf9k^+amvpto%i0-58pk4&7s2e4gfv*a2vq(%'
 
