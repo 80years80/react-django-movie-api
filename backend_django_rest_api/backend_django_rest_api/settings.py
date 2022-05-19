@@ -27,7 +27,6 @@ f.close()
 SECRET_KEY = secret['key']
 
 
-#SECRET_KEY = 'django-insecure-s)dr(s&+hb_mdwf9k^+amvpto%i0-58pk4&7s2e4gfv*a2vq(%'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
