@@ -1,2 +1,3 @@
-
 docker build -f django.Dockerfile -t movie_api .
+
+docker run -p 8000:8000 movie_api
