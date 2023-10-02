@@ -8,5 +8,7 @@ WORKDIR /frontend
 RUN apt-get update
 RUN apt-get install npm nodejs
 RUN npm install
+
 EXPOSE 3000
+
 RUN npm start

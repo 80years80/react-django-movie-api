@@ -1,3 +1,7 @@
 docker build -f django.Dockerfile -t movie_api .
 
 docker run -p 8000:8000 movie_api
+
+docker build -f react.Dockerfile -t movie_ui .
+
+docker run -p 3000:3000 movie_ui
