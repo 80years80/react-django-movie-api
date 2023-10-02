@@ -6,7 +6,7 @@ COPY /front_end_react_movie_app /frontend/
 WORKDIR /frontend
 
 RUN apt-get update
-RUN apt-get install npm nodejs
+RUN apt-get install npm
 RUN npm install
 
 EXPOSE 3000
